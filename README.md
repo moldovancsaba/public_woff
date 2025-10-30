@@ -1,5 +1,20 @@
-# AS Roma Static Site
+# AS Roma Font Host
 
-1. Deploy this folder to Vercel.
-2. Replace `public/fonts/ASRoma-Regular.woff` with your actual font file.
-3. The CSS already points to `/fonts/ASRoma-Regular.woff`.
+Next.js site for hosting WOFF fonts publicly.
+
+## Setup
+
+```bash
+npm install
+npm run dev
+```
+
+## Deploy to Vercel
+
+1. Push to GitHub
+2. Import to Vercel (Framework: Next.js)
+3. Deploy
+
+## Add Fonts
+
+Place your `.woff` files in `public/fonts/` and they'll be accessible at `/fonts/your-font.woff`
