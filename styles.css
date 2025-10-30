@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "AS Roma";
+  src: url("/fonts/ASRoma-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg: #111;
+  --card: #1a1a1a;
+  --text: #f7f7f7;
+  --accent: #ffbe33;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #2b2b2b, #0d0d0d);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.page {
+  background: rgba(10, 10, 10, 0.5);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  border-radius: 1.25rem;
+  padding: 2.5rem 2.25rem 2rem;
+  max-width: 640px;
+  width: 100%;
+}
+
+h1,
+h2,
+.sample {
+  font-family: "AS Roma", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.01em;
+}
+
+p {
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+.block {
+  margin-top: 1.75rem;
+  background: rgba(255, 255, 255, 0.01);
+  border: 1px solid rgba(255, 255, 255, 0.02);
+  border-radius: 1rem;
+  padding: 1.25rem 1.5rem;
+}
+
+.sample {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+strong {
+  color: var(--accent);
+}
