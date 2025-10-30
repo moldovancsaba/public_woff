@@ -75,3 +75,21 @@ p {
 strong {
   color: var(--accent);
 }
+
+.download-link {
+  display: inline-block;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 190, 51, 0.1);
+  border: 1px solid rgba(255, 190, 51, 0.3);
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  font-family: "AS Roma", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.download-link:hover {
+  background: rgba(255, 190, 51, 0.2);
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}

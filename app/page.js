@@ -12,6 +12,15 @@ export default function Home() {
           Roma, non <strong>pro patria</strong> sed pro <em>style</em>.
         </p>
       </section>
+
+      <section className="block">
+        <h2>Download Font</h2>
+        <p>
+          <a href="/fonts/ASRoma-Regular.woff" download className="download-link">
+            ASRoma-Regular.woff
+          </a>
+        </p>
+      </section>
     </main>
   );
 }
